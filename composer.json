@@ -1,0 +1,32 @@
+{
+  "name": "tinywan/soar",
+  "description": "soar sql check for webman plugin",
+  "keywords": ["sql", "mysql", "soar", "webman", "plugin"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tinywan",
+      "email": "756684177@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Tinywan/webman-soar/issues",
+    "source": "https://github.com/Tinywan/webman-soar"
+  },
+  "require": {
+    "workerman/webman-framework": "^1.2.1",
+    "topthink/think-orm": "^2.0",
+    "guanguans/soar-php": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tinywan\\Soar\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "friendsofphp/php-cs-fixer": "^3.6",
+    "phpstan/phpstan": "^1.4"
+  }
+}
